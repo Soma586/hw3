@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id = "Title">Type in your information</h1>
+    
+        <label for="username">UserName</label>
+
+        <input type="text" name="username" id = "username">
+        <br><br>
+
+        <label for="Email">Email</label>
+        <input type="text" id = "Email">
+        <br><br>
+        
+        
+        <label for="pass">Password</label>
+        <input type="password" id  = "password">
+
+        <input type="submit" value = "submit" id = "submit">
+        
+
+
+
+
+
+
+    
+
+
+
+
+    <script>
+        document.getElementById("submit").addEventListener("click" , function(){
+            
+
+            
+
+            
+            var pw = document.getElementById("password").value;
+            var title = document.getElementById("Title").value;
+
+            if(pw !== "12345678"){
+             alert("you have the wrong password");
+            }else{
+                //title = title.innerhtml = "what up bitch";
+               var title = document.getElementById("Title").innerHTML = "password detected";
+
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+
+
+</html>

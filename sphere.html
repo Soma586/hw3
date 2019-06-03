@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sphere</title>
+</head>
+<body>
+
+    <label for="radius">What's your radius?</label>
+    <input type="text" id = "radius">
+    <input type="submit" id = "submit">
+    <p id = 'answer'></p>
+    
+
+
+
+
+    <script>
+        document.getElementById("submit").addEventListener('click', function(){
+            var num = document.getElementById("radius").value;
+          
+           var result = ((4/3) * Math.PI * Math.pow(num, 3));
+           
+        
+           document.getElementById('answer').innerHTML = result;
+        
+        
+        });
+    
+    </script>
+</body>
+</html>
