@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <button id ="btn">first button</button>
 
-    <span id = "first"></span>
-    <br>
-    <button id = "btn2">second button</button>
-    <span id = "second"></span>
-  
-    
-    
+<body id="argument">
+
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Index<index/a> </li> 
+            <li> <a href="hover.html">Hover</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="sphere.html">Sphere</a></li>
+        </ul>
+    </div>
+
+    <div id="box">
+
+        <button id="btn">first button</button>
+
+        <span id="first"></span>
+        <br>
+        <button id="btn2">second button</button>
+        <span id="second"></span>
+
+    </div>
+
 </body>
 
 <script>
-    
-        
-
-            let argue = () => {
-               // alert("what up");
-                document.getElementById("btn").addEventListener('click', function(event){
-                   document.getElementById("first").innerHTML = "I'm right";
-                  // alert("hey there");
-                
-            });}
-            
-            argue();
 
 
-            /*let argue = () =>{
-                document.getElementById("first").innerHTML = "I'm right";
-                //document.getElementById("second").innerHTML = "no, I'm right";
-            }*/
-            /*
-            let argueback = () => {
-                document.getElementById("second").innerHTML = "no i'm right";
 
-            }*/
+    let argue = () => {
+        // alert("what up");
+        document.getElementById("btn").addEventListener('click', function (event) {
+            document.getElementById("first").innerHTML = "I'm right";
+            // alert("hey there");
 
-            let argueback = () =>{
-                document.getElementById("btn2").addEventListener('click', function(event){
-                   document.getElementById("second").innerHTML = "No, I'm right";
-                  // alert("hey there");
-                }
-                
-                );
-            }
-            argueback();
-            
-            </script>
+        });
+    }
+
+    argue();
+
+
+    /*let argue = () =>{
+        document.getElementById("first").innerHTML = "I'm right";
+        //document.getElementById("second").innerHTML = "no, I'm right";
+    }*/
+    /*
+    let argueback = () => {
+        document.getElementById("second").innerHTML = "no i'm right";
+
+    }*/
+
+    let argueback = () => {
+        document.getElementById("btn2").addEventListener('click', function (event) {
+            document.getElementById("second").innerHTML = "No, I'm right";
+            // alert("hey there");
+        }
+
+        );
+    }
+    argueback();
+
+</script>
 
 </html>

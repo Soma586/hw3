@@ -1,0 +1,148 @@
+.nav ul{
+    list-style-type: none;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    
+
+
+}
+.nav ul li{
+    display: inline-block;
+    
+}
+
+
+/**contact css **/
+#contact {
+    margin : 0;
+    padding :0;
+    font-family:sans-serif;
+    
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.box{
+    margin : 0 auto;
+    width : 300px;
+    padding : 40 px;
+    text-align: center;
+    left : 40%;
+   
+}
+
+
+.box input[type = "text"], .box input[type = "password"]{
+    display: block;
+    margin : 20px auto;
+    text-align: center;
+    border: 2px solid green;
+    border-radius : 16px;
+    padding : 10px 30px
+}
+
+.box input[type = "submit"]{
+    border :0;
+    background: none;
+    border : 2px solid green;
+    border-radius : 16px;
+    padding: 10px 20px;
+}
+
+.box input[type = "submit"]:hover{
+    
+    background: green;
+    /*transition-delay: 0.05;*/
+    
+}
+
+/**********/
+
+/****hover.html****/  
+
+#hov{
+    margin : 0;
+    padding :0;
+    font-family:sans-serif;
+    text-align: center;
+    
+}
+
+#title{
+    margin-top : 400px;
+}
+
+/*****/
+
+
+/*****index.html***/
+
+#argument{
+    margin : 0;
+    padding :0;
+    font-family:sans-serif;
+    text-align: center;
+    
+}
+
+#btn{
+    border : none;
+    background : none;
+    border: 2px solid blue;
+    border-radius : 16px;
+    padding : 20px;
+    margin : 20px;
+
+}
+#btn:hover{
+    background: blue;
+    color: white;
+}
+
+#btn2{
+border : none;
+background : none;
+border: 2px solid blue;
+border-radius : 16px;
+padding :20px;
+
+}
+
+#btn2:hover{
+    background: blue;
+    color: white;
+}
+
+
+/*******/
+
+
+/*****sphere index****/
+
+#circle{
+    margin : 0;
+    padding :0;
+    font-family:sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+
+#circle input[type = "submit"]{
+    border : none;
+background : none;
+border: 2px solid red;
+border-radius : 16px;
+padding :20px;
+
+}
+
+#circle input[type = "submit"]:hover{
+    background : red;
+
+}
