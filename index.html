@@ -41,6 +41,9 @@
         // alert("what up");
         document.getElementById("btn").addEventListener('click', function (event) {
             document.getElementById("first").innerHTML = "I'm right";
+
+            document.getElementById("second").innerHTML = "";
+
             // alert("hey there");
 
         });
@@ -62,6 +65,8 @@
     let argueback = () => {
         document.getElementById("btn2").addEventListener('click', function (event) {
             document.getElementById("second").innerHTML = "No, I'm right";
+
+            document.getElementById("first").innerHTML = "";
             // alert("hey there");
         }
 

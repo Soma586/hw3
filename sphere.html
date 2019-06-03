@@ -35,6 +35,8 @@
             var num = document.getElementById("radius").value;
           
            var result = ((4/3) * Math.PI * Math.pow(num, 3));
+
+           result = Math.round(result);
            
         
            document.getElementById('answer').innerHTML = result;
